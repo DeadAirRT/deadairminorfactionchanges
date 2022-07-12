@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/modules">
+    <module id="recycling_ali" group="recycling_ali">
+      <category tags="[recycling, module]" faction="alliance"/>
+      <compatibilities>
+        <production ware="energycells" chance="100" respectquota="false"/>
+        <production ware="scrapmetal" chance="100" respectquota="false"/>
+      </compatibilities>
+    </module>
+  </add>
+</diff>

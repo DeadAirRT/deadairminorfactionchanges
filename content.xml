@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="DeadAirMinorFactionChanges" name="DeadAir Minor Faction Changes" description="Removes spawning of minor factions" author="DeadAir" version="001" date="2022-06-28" save="0" enabled="1">
+	<dependency id="ego_dlc_split" optional="false" name="Split Vendetta" />
+	<dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity" />
+	<dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
+	<dependency id="DeadAirGate" optional="true" name="DeadAirGate"/>
+	<dependency id="DeadAirGod" optional="true" name="DeadAirGod"/>
+	<dependency id="DeadAirJobs" optional="true" name="DeadAirJobs"/>
+	<dependency id="DeadAir_Ware" optional="true" name="DeadAir_Ware"/>
+	<text language="7" 	name="DeadAir Minor Faction Changes" description="Removes spawning of minor factions" author="DeadAir" />
+	<text language="33" name="DeadAir Minor Faction Changes" description="Removes spawning of minor factions" author="DeadAir" />
+	<text language="34" name="DeadAir Minor Faction Changes" description="Removes spawning of minor factions" author="DeadAir" />
+	<text language="39" name="DeadAir Minor Faction Changes" description="Removes spawning of minor factions" author="DeadAir" />
+	<text language="44" name="DeadAir Minor Faction Changes" description="Removes spawning of minor factions" author="DeadAir" />
+	<text language="45" name="DeadAir Minor Faction Changes" description="Removes spawning of minor factions" author="DeadAir" />
+	<text language="49" name="DeadAir Minor Faction Changes" description="Removes spawning of minor factions" author="DeadAir" />
+	<text language="81" name="DeadAir Minor Faction Changes" description="Removes spawning of minor factions" author="DeadAir" />
+	<text language="82" name="DeadAir Minor Faction Changes" description="Removes spawning of minor factions" author="DeadAir" />
+	<text language="86" name="DeadAir Minor Faction Changes" description="Removes spawning of minor factions" author="DeadAir" />
+	<text language="88" name="DeadAir Minor Faction Changes" description="Removes spawning of minor factions" author="DeadAir" />
+</content>

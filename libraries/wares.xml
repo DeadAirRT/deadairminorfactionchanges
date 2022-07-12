@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/wares/ware[@id='advancedcomposites']">
+    <production time="120" amount="110" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
+      <primary>
+        <ware ware="energycells" amount="1675"/>
+        <ware ware="scrapmetal" amount="75"/>
+      </primary>
+      <effects>
+        <effect type="work" product="0.78" cycle="0.1"/>
+      </effects>
+    </production>
+  </add>
+  <add sel="/wares/ware[@id='advancedelectronics']">
+    <production time="120" amount="60" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
+      <primary>
+        <ware ware="energycells" amount="1715"/>
+        <ware ware="scrapmetal" amount="75"/>
+      </primary>
+      <effects>
+        <effect type="work" product="0.8" cycle="0.35"/>
+      </effects>
+    </production>
+  </add>
+  <add sel="/wares/ware[@id='antimatterconverters']">
+    <production time="120" amount="170" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
+      <primary>
+        <ware ware="energycells" amount="1695"/>
+        <ware ware="scrapmetal" amount="75"/>
+      </primary>
+      <effects>
+        <effect type="work" product="0.73" cycle="0.35"/>
+      </effects>
+    </production>
+  </add>
+  <replace sel="/wares/ware[@id='claytronics']/production[@method='recycling']/@time">120</replace>
+  <replace sel="/wares/ware[@id='claytronics']/production[@method='recycling']/@amount">30</replace>
+  <replace sel="/wares/ware[@id='claytronics']/production[@method='recycling']/primary/ware[@ware='energycells']/@amount">1725</replace>
+  <replace sel="/wares/ware[@id='claytronics']/production[@method='recycling']/primary/ware[@ware='scrapmetal']/@amount">75</replace>
+  <add sel="/wares/ware[@id='dronecomponents']">
+    <production time="120" amount="65" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
+      <primary>
+        <ware ware="energycells" amount="1675"/>
+        <ware ware="scrapmetal" amount="75"/>
+      </primary>
+      <effects>
+        <effect type="work" product="0.5" cycle="0.35"/>
+      </effects>
+    </production>
+  </add>
+  <add sel="/wares/ware[@id='engineparts']">
+    <production time="120" amount="335" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
+      <primary>
+        <ware ware="energycells" amount="1715"/>
+        <ware ware="scrapmetal" amount="75"/>
+      </primary>
+      <effects>
+        <effect type="work" product="0.65" cycle="0.35"/>
+      </effects>
+    </production>
+  </add>
+  <add sel="/wares/ware[@id='fieldcoils']">
+    <production time="120" amount="145" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
+      <primary>
+        <ware ware="energycells" amount="1685"/>
+        <ware ware="scrapmetal" amount="75"/>
+      </primary>
+      <effects>
+        <effect type="work" product="0.53" cycle="0.35"/>
+      </effects>
+    </production>
+  </add>
+  <replace sel="/wares/ware[@id='hullparts']/production[@method='recycling']/@time">120</replace>
+  <replace sel="/wares/ware[@id='hullparts']/production[@method='recycling']/@amount">290</replace>
+  <replace sel="/wares/ware[@id='hullparts']/production[@method='recycling']/primary/ware[@ware='energycells']/@amount">1705</replace>
+  <add sel="/wares/ware[@id='scanningarrays']">
+    <production time="120" amount="55" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
+      <primary>
+        <ware ware="energycells" amount="1630"/>
+        <ware ware="scrapmetal" amount="70"/>
+      </primary>
+      <effects>
+        <effect type="work" product="0.61" cycle="0.35"/>
+      </effects>
+    </production>
+  </add>
+  <add sel="/wares/ware[@id='smartchips']">
+    <production time="120" amount="1070" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
+      <primary>
+        <ware ware="energycells" amount="1630"/>
+        <ware ware="scrapmetal" amount="75"/>
+      </primary>
+      <effects>
+        <effect type="work" product="0.59" cycle="0.35"/>
+      </effects>
+    </production>
+  </add>
+  <add sel="/wares/ware[@id='turretcomponents']">
+    <production time="120" amount="220" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
+      <primary>
+        <ware ware="energycells" amount="1690"/>
+        <ware ware="scrapmetal" amount="75"/>
+      </primary>
+      <effects>
+        <effect type="work" product="0.85" cycle="0.35"/>
+      </effects>
+    </production>
+  </add>
+  <add sel="/wares/ware[@id='weaponcomponents']">
+    <production time="120" amount="210" method="recycling" name="{20206,1101}" tags="noplayerbuild recycling">
+      <primary>
+        <ware ware="energycells" amount="1685"/>
+        <ware ware="scrapmetal" amount="75"/>
+      </primary>
+      <effects>
+        <effect type="work" product="0.85" cycle="0.35"/>
+      </effects>
+    </production>
+  </add>
+  <add sel="/wares/ware[@id='ship_pir_l_scrapper_01']">
+    <owner faction="alliance"/>
+  </add>
+  <add sel="/wares">
+    <ware id="module_gen_prod_scrap_recycler_mk2" name="{20104,130101} {20111,201}" description="{20104,130102}" transport="container" volume="1" tags="module">
+      <price min="3256988" average="3831750" max="4406512"/>
+      <production time="300" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="claytronics" amount="360"/>
+          <ware ware="energycells" amount="600"/>
+        </primary>
+      </production>
+      <component ref="prod_gen_scrap_recycler_mk2_macro" amount="1"/>
+      <restriction licence="station_gen_basic"/>
+      <owner faction="alliance"/>
+    </ware>
+  </add>
+</diff>

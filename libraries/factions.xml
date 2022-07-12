@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/factions/faction[@id='alliance']/licences">
+    <licence type="capitalequipment" factions="antigone argon hatikvah holyorder ministry scaleplate teladi freesplit"/>
+  </add>
+  <add sel="/factions/faction[@id='alliance']/licences">
+    <licence type="capitalship" factions="antigone argon buccaneers hatikvah holyorder ministry paranid scaleplate teladi trinity freesplit"/>
+  </add>
+  <add sel="/factions/faction[@id='alliance']/licences">
+    <licence type="ceremonyally" factions="antigone argon buccaneers hatikvah holyorder ministry paranid scaleplate teladi trinity freesplit"/>
+  </add>
+  <add sel="/factions/faction[@id='alliance']/licences">
+    <licence type="generaluseequipment" factions="hatikvah scaleplate freesplit"/>
+  </add>
+  <add sel="/factions/faction[@id='alliance']/licences">
+    <licence type="generaluseship" factions="antigone argon buccaneers holyorder ministry paranid scaleplate teladi trinity freesplit"/>
+  </add>
+  <add sel="/factions/faction[@id='alliance']/licences">
+    <licence type="militaryequipment" factions="antigone argon buccaneers hatikvah holyorder ministry paranid scaleplate teladi trinity freesplit"/>
+  </add>
+  <add sel="/factions/faction[@id='alliance']/licences">
+    <licence type="militaryship" factions="antigone argon buccaneers hatikvah holyorder ministry paranid scaleplate teladi trinity freesplit"/>
+  </add>
+  <replace sel="/factions/faction[@id='alliance']/relations/relation[@faction='fallensplit']/@relation">0.1</replace>
+  <add sel="/factions/faction[@id='alliance']/relations">
+    <relation faction="holyorder" relation="0.1"/>
+  </add>
+  <add sel="/factions/faction[@id='alliance']/relations">
+    <relation faction="scaleplate" relation="0.1"/>
+  </add>
+  <add sel="/factions/faction[@id='alliance']/relations">
+    <relation faction="freesplit" relation="0.1"/>
+  </add>
+  <add sel="/factions/faction[@id='alliance']/relations">
+    <relation faction="buccaneers" relation="0.1"/>
+  </add>
+  <add sel="/factions/faction[@id='alliance']">
+    <signals>
+      <response signal="attacked" response="flee"/>
+      <response signal="policehalt" response="comply"/>
+      <response signal="piratehalt" response="comply"/>
+      <response signal="foundabandonedship" response="claim"/>
+      <response signal="foundlockbox" response="collect"/>
+    </signals>
+  </add>
+  <add sel="/factions/faction[@id='buccaneers']/licences">
+    <licence type="capitalequipment" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='buccaneers']/licences">
+    <licence type="capitalship" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='buccaneers']/licences">
+    <licence type="ceremonyally" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='buccaneers']/licences">
+    <licence type="generaluseequipment" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='buccaneers']/licences">
+    <licence type="generaluseship" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='buccaneers']/licences">
+    <licence type="militaryequipment" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='buccaneers']/licences">
+    <licence type="militaryship" factions="alliance"/>
+  </add>
+  <replace sel="/factions/faction[@id='buccaneers']/relations/relation[@faction='scaleplate']/@relation">0</replace>
+  <replace sel="/factions/faction[@id='buccaneers']/relations/relation[@faction='fallensplit']/@relation">0</replace>
+  <add sel="/factions/faction[@id='buccaneers']/relations">
+    <relation faction="alliance" relation="0.1"/>
+  </add>
+  <add sel="/factions/faction[@id='buccaneers']">
+    <signals>
+      <response signal="foundabandonedship" response="claim"/>
+      <response signal="policehalt" response="attack"/>
+      <response signal="foundlockbox" response="collect"/>
+    </signals>
+  </add>
+  <add sel="/factions/faction[@id='hatikvah']/licences">
+    <licence type="capitalequipment" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='hatikvah']/licences">
+    <licence type="capitalship" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='hatikvah']/licences">
+    <licence type="ceremonyally" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='hatikvah']/licences">
+    <licence type="generaluseequipment" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='hatikvah']/licences">
+    <licence type="generaluseship" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='hatikvah']/licences">
+    <licence type="militaryequipment" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='hatikvah']/licences">
+    <licence type="militaryship" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='holyorder']/relations">
+    <relation faction="alliance" relation="0.1"/>
+  </add>
+  <add sel="/factions/faction[@id='scaleplate']/licences">
+    <licence type="capitalequipment" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='scaleplate']/licences">
+    <licence type="capitalship" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='scaleplate']/licences">
+    <licence type="ceremonyally" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='scaleplate']/licences">
+    <licence type="generaluseequipment" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='scaleplate']/licences">
+    <licence type="generaluseship" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='scaleplate']/licences">
+    <licence type="militaryequipment" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='scaleplate']/licences">
+    <licence type="militaryship" factions="alliance"/>
+  </add>
+  <replace sel="/factions/faction[@id='scaleplate']/relations/relation[@faction='buccaneers']/@relation">0</replace>
+  <add sel="/factions/faction[@id='scaleplate']/relations">
+    <relation faction="alliance" relation="0.1"/>
+  </add>
+  <add sel="/factions/faction[@id='scaleplate']/signals">
+    <response signal="foundabandonedship" response="claim"/>
+  </add>
+  <add sel="/factions/faction[@id='court']/relations">
+    <relation faction="alliance" relation="0.1"/>
+  </add>
+  <add sel="/factions/faction[@id='fallensplit']/licences">
+    <licence type="capitalequipment" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='fallensplit']/licences">
+    <licence type="capitalship" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='fallensplit']/licences">
+    <licence type="ceremonyally" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='fallensplit']/licences">
+    <licence type="generaluseequipment" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='fallensplit']/licences">
+    <licence type="generaluseship" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='fallensplit']/licences">
+    <licence type="militaryequipment" factions="alliance"/>
+  </add>
+  <add sel="/factions/faction[@id='fallensplit']/licences">
+    <licence type="militaryship" factions="alliance"/>
+  </add>
+  <replace sel="/factions/faction[@id='fallensplit']/relations/relation[@faction='alliance']/@relation">0.1</replace>
+  <replace sel="/factions/faction[@id='fallensplit']/relations/relation[@faction='buccaneers']/@relation">0</replace>
+  <add sel="/factions/faction[@id='fallensplit']/signals">
+    <response signal="foundabandonedship" response="claim"/>
+  </add>
+  <add sel="/factions/faction[@id='fallensplit']/signals">
+    <response signal="foundlockbox" response="collect"/>
+  </add>
+  <add sel="/factions/faction[@id='freesplit']/relations">
+    <relation faction="alliance" relation="0.1"/>
+  </add>
+  <replace sel="/factions/faction[@id='freesplit']/signals/response/@signal">foundabandonedship</replace>
+  <replace sel="/factions/faction[@id='freesplit']/signals/response/@response">claim</replace>
+  <add sel="/factions/faction[@id='freesplit']/signals">
+    <response signal="foundlockbox" response="collect"/>
+  </add>
+  <add sel="/factions/faction[@id='split']/relations">
+    <relation faction="alliance" relation="0.1"/>
+  </add>
+  <add sel="/factions/faction[@id='scavenger']/relations">
+    <relation faction="alliance" relation="0.1"/>
+  </add>
+</diff>

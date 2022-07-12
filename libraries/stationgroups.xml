@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <replace sel="/groups/group[@name='shipyard_ali']/select/@constructionplan">par_shipyard</replace>
+</diff>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="prod_gen_scrap_recycler_mk2_macro" class="production">
+    <component ref="prod_gen_scrap_recycler" />
+    <properties>
+      <identification name="{20104,130101} {20111,201}" description="{20104,130102}" type="moduletypes_processing" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+        </sets>
+      </build>
+      <explosiondamage value="2000" shield="10000" />
+      <hull max="200000" />
+      <secrecy level="2" />
+      <production wares="claytronics hullparts advancedcomposites advancedelectronics antimatterconverters dronecomponents engineparts fieldcoils scanningarrays smartchips turretcomponents weaponcomponents">
+        <queue>
+          <item ware="claytronics" method="recycling" />
+          <item ware="hullparts" method="recycling" />
+		  <item ware="advancedcomposites" method="recycling" />
+          <item ware="advancedelectronics" method="recycling" />
+		  <item ware="antimatterconverters" method="recycling" />
+          <item ware="dronecomponents" method="recycling" />
+		  <item ware="engineparts" method="recycling" />
+          <item ware="fieldcoils" method="recycling" />
+          <item ware="scanningarrays" method="recycling" />
+          <item ware="smartchips" method="recycling" />
+		  <item ware="turretcomponents" method="recycling" />
+          <item ware="weaponcomponents" method="recycling" />
+        </queue>
+      </production>
+      <workforce max="1950" />
+    </properties>
+  </macro>
+</macros>

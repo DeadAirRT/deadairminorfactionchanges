@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <replace sel="/peopledefinitions/people[@id='hatikvah_pirate_crew']/fillpercent/@min">50</replace>
+  <replace sel="/peopledefinitions/people[@id='hatikvah_pirate_crew']/fillpercent/@max">75</replace>
+  <replace sel="/peopledefinitions/people[@id='hatikvah_veteran_pirate_crew']/fillpercent/@min">75</replace>
+  <replace sel="/peopledefinitions/people[@id='hatikvah_veteran_pirate_crew']/fillpercent/@max">100</replace>
+  <replace sel="/peopledefinitions/people[@id='hatikvah_elite_pirate_crew']/fillpercent/@min">90</replace>
+  <replace sel="/peopledefinitions/people[@id='hatikvah_elite_pirate_crew']/fillpercent/@max">100</replace>
+  <replace sel="/peopledefinitions/people[@id='scaleplate_pirate_crew']/fillpercent/@min">50</replace>
+  <replace sel="/peopledefinitions/people[@id='scaleplate_pirate_crew']/fillpercent/@max">75</replace>
+  <replace sel="/peopledefinitions/people[@id='scaleplate_veteran_pirate_crew']/fillpercent/@min">75</replace>
+  <replace sel="/peopledefinitions/people[@id='scaleplate_veteran_pirate_crew']/fillpercent/@max">100</replace>
+  <replace sel="/peopledefinitions/people[@id='scaleplate_elite_pirate_crew']/fillpercent/@min">90</replace>
+  <replace sel="/peopledefinitions/people[@id='scaleplate_elite_pirate_crew']/fillpercent/@max">100</replace>
+  <replace sel="/peopledefinitions/people[@id='buccaneers_pirate_crew']/fillpercent/@min">50</replace>
+  <replace sel="/peopledefinitions/people[@id='buccaneers_pirate_crew']/fillpercent/@max">75</replace>
+  <replace sel="/peopledefinitions/people[@id='buccaneers_veteran_pirate_crew']/fillpercent/@min">75</replace>
+  <replace sel="/peopledefinitions/people[@id='buccaneers_veteran_pirate_crew']/fillpercent/@max">100</replace>
+  <replace sel="/peopledefinitions/people[@id='buccaneers_elite_pirate_crew']/fillpercent/@min">90</replace>
+</diff>

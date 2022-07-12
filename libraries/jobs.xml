@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/jobs/job[@id='hatikvah_miningfleet_m_solid_small']/location[@macro='xu_ep2_universe_macro']" type="@matchextension">false</add>
+  <add sel="/jobs/job[@id='hatikvah_miningfleet_m_liquid_small']/location[@macro='xu_ep2_universe_macro']" type="@matchextension">false</add>
+  <add sel="/jobs/job[@id='hatikvah_miningfleet_ml_solid_large']/location[@macro='xu_ep2_universe_macro']" type="@matchextension">false</add>
+  <add sel="/jobs/job[@id='hatikvah_miningfleet_ml_liquid_large']/location[@macro='xu_ep2_universe_macro']" type="@matchextension">false</add>
+  <add sel="/jobs/job[@id='hatikvah_scavenger_sm_deepspace_single']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='hatikvah_scavenger_sm_deepspace_single']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='hatikvah_scavenger_sm_deepspace_single']/environment/@gate"/>
+  <add sel="/jobs/job[@id='hatikvah_resourcescout_sm_deepspace_single']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='hatikvah_resourcescout_sm_deepspace_single']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='hatikvah_resourcescout_sm_deepspace_single']/environment/@gate"/>
+  <add sel="/jobs/job[@id='hatikvah_free_miner_ml_liquid_deepspace_single']/location[@macro='xu_ep2_universe_macro'][@faction='hatikvah']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='hatikvah_free_miner_ml_liquid_deepspace_single']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='hatikvah_free_miner_ml_liquid_deepspace_single']/environment/@gate"/>
+  <add sel="/jobs/job[@id='hatikvah_free_miner_l_solid_deepspace_largegroup']/location[@macro='xu_ep2_universe_macro'][@faction='hatikvah']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='hatikvah_free_miner_l_solid_deepspace_largegroup']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='hatikvah_free_miner_l_solid_deepspace_largegroup']/environment/@gate"/>
+  <add sel="/jobs/job[@id='scaleplate_plunderer_l_cluster']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='scaleplate_plunderer_l_cluster']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='scaleplate_plunderer_l_cluster']/environment/@gate"/>
+  <add sel="/jobs/job[@id='scaleplate_plunderer_l_cluster_reduced']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='scaleplate_plunderer_l_cluster_reduced']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='scaleplate_plunderer_l_cluster_reduced']/environment/@gate"/>
+  <add sel="/jobs/job[@id='scaleplate_scavenger_m_cluster']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='scaleplate_scavenger_m_cluster']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='scaleplate_scavenger_m_cluster']/environment/@gate"/>
+  <add sel="/jobs/job[@id='scaleplate_plunderer_m_cluster']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='scaleplate_plunderer_m_cluster']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='scaleplate_plunderer_m_cluster']/environment/@gate"/>
+  <add sel="/jobs/job[@id='scaleplate_smuggler_s']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='scaleplate_smuggler_s']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='scaleplate_smuggler_s']/environment/@gate"/>
+  <replace sel="/jobs/job[@id='scaleplate_smuggler_s']/ship/loadout/level/@min">0.1</replace>
+  <add sel="/jobs/job[@id='scaleplate_mixed_trader_l']/location[@macro='xu_ep2_universe_macro']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='scaleplate_mixed_trader_l']/ship/loadout/level/@min">0.1</replace>
+  <add sel="/jobs/job[@id='scaleplate_mixed_trader_m']/location[@macro='xu_ep2_universe_macro']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='scaleplate_mixed_trader_m']/ship/loadout/level/@min">0.1</replace>
+  <add sel="/jobs/job[@id='scaleplate_scavenger_sm_deepspace']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='scaleplate_scavenger_sm_deepspace']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='scaleplate_scavenger_sm_deepspace']/environment/@gate"/>
+  <replace sel="/jobs/job[@id='scaleplate_scavenger_sm_deepspace']/ship/loadout/level/@min">0.1</replace>
+  <replace sel="/jobs/job[@id='scaleplate_fighter_escort_s']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='scaleplate_fighter_escort_s']/environment/@gate"/>
+  <replace sel="/jobs/job[@id='scaleplate_fighter_escort_s']/ship/loadout/level/@min">0.1</replace>
+  <add sel="/jobs/job[@id='buc_patrol_m_hidden']/location[@macro='xu_ep2_universe_macro']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='buc_patrol_m_hidden']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='buc_patrol_m_hidden']/environment/@gate"/>
+  <add sel="/jobs/job[@id='buc_patrol_s_hidden']/location[@macro='xu_ep2_universe_macro']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='buc_patrol_s_hidden']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='buc_patrol_s_hidden']/environment/@gate"/>
+  <add sel="/jobs/job[@id='buc_patrol_s_hidden_antisat']/location[@macro='xu_ep2_universe_macro']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='buc_patrol_s_hidden_antisat']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='buc_patrol_s_hidden_antisat']/environment/@gate"/>
+  <add sel="/jobs/job[@id='buc_plunderer_m_hidden_op']/location[@macro='xu_ep2_universe_macro']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='buc_plunderer_m_hidden_op']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='buc_plunderer_m_hidden_op']/environment/@gate"/>
+  <add sel="/jobs/job[@id='buc_plunderer_m_hidden']/location[@macro='xu_ep2_universe_macro']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='buc_plunderer_m_hidden']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='buc_plunderer_m_hidden']/environment/@gate"/>
+  <replace sel="/jobs/job[@id='buc_guerilla_m_cluster']/location[@macro='xu_ep2_universe_macro'][@faction='[paranid, holyorder]']/@faction">xenon</replace>
+  <replace sel="/jobs/job[@id='buc_guerilla_m_cluster']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']/@relation">self</replace>
+  <replace sel="/jobs/job[@id='buc_guerilla_m_cluster']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']/@comparison">lt</replace>
+  <add sel="/jobs/job[@id='buc_guerilla_m_cluster']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='buc_guerilla_m_cluster']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='buc_guerilla_m_cluster']/environment/@gate"/>
+  <replace sel="/jobs/job[@id='buc_guerilla_infiltrator_s_cluster']/location[@macro='xu_ep2_universe_macro'][@faction='[paranid, holyorder]']/@faction">xenon</replace>
+  <replace sel="/jobs/job[@id='buc_guerilla_infiltrator_s_cluster']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']/@relation">self</replace>
+  <replace sel="/jobs/job[@id='buc_guerilla_infiltrator_s_cluster']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']/@comparison">lt</replace>
+  <add sel="/jobs/job[@id='buc_guerilla_infiltrator_s_cluster']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']" type="@matchextension">false</add>
+  <replace sel="/jobs/job[@id='buc_guerilla_infiltrator_s_cluster']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='buc_guerilla_infiltrator_s_cluster']/environment/@gate"/>
+  <replace sel="/jobs/job[@id='buc_guerilla_escort_m']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='buc_guerilla_escort_m']/environment/@gate"/>
+  <replace sel="/jobs/job[@id='buc_guerilla_escort_s']/environment/@buildatshipyard">true</replace>
+  <remove sel="/jobs/job[@id='buc_guerilla_escort_s']/environment/@gate"/>
+  <add sel="/jobs">
+    <job id="hatikvah_destroyer_patrol_l_sector_DA" name="{20204,3301}">
+      <modifiers commandeerable="false"/>
+      <orders>
+        <order order="Patrol" default="true">
+          <param name="range" value="class.sector"/>
+        </order>
+      </orders>
+      <category faction="hatikvah" tags="[military, destroyer]" size="ship_l"/>
+      <quota galaxy="2" sector="1" maxgalaxy="2" cluster="2"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="hatikvah" relation="self" comparison="exact" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="hatikvah" tags="[military, destroyer]" size="ship_l"/>
+        <loadout>
+          <level exact="1.0"/>
+        </loadout>
+        <owner exact="hatikvah" overridenpc="true"/>
+      </ship>
+      <subordinates>
+        <subordinate job="hatikvah_destroyer_escort_l_DA"/>
+        <subordinate job="hatikvah_frigate_escort_m_DA"/>
+        <subordinate job="hatikvah_fighter_escort_s_frigate_DA"/>
+      </subordinates>
+    </job>
+  </add>
+  <add sel="/jobs">
+    <job id="hatikvah_destroyer_escort_l_DA" name="{20204,3301}" startactive="false">
+      <orders>
+        <order order="Escort" default="true">
+          <param name="formation" value="formationshape.invvshape"/>
+          <param name="overrideformationskill" value="true"/>
+        </order>
+      </orders>
+      <category faction="hatikvah" tags="[military, destroyer]" size="ship_l"/>
+      <quota wing="3"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro"/>
+      <environment buildatshipyard="true"/>
+      <modifiers subordinate="true"/>
+      <ship>
+        <select faction="hatikvah" tags="[military, destroyer]" size="ship_l"/>
+        <loadout>
+          <level min="0.8" max="1.0"/>
+        </loadout>
+        <owner exact="hatikvah" overridenpc="true"/>
+      </ship>
+    </job>
+  </add>
+  <add sel="/jobs">
+    <job id="hatikvah_frigate_escort_m_DA" name="{20204,2901}" startactive="false">
+      <modifiers subordinate="true"/>
+      <orders>
+        <order order="Escort" default="true">
+          <param name="formation" value="formationshape.dartvertical"/>
+          <param name="overrideformationskill" value="true"/>
+        </order>
+      </orders>
+      <category faction="hatikvah" tags="[military]" size="ship_m"/>
+      <quota wing="5"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="hatikvah" tags="[military, medium]" size="ship_m"/>
+        <loadout>
+          <level min="0.8" max="1.0"/>
+        </loadout>
+        <owner exact="hatikvah" overridenpc="true"/>
+      </ship>
+    </job>
+  </add>
+  <add sel="/jobs">
+    <job id="hatikvah_fighter_escort_s_frigate_DA" name="{20204,2901}" startactive="false">
+      <orders>
+        <order order="Escort" default="true">
+          <param name="formation" value="formationshape.pointguard"/>
+          <param name="overrideformationskill" value="true"/>
+        </order>
+      </orders>
+      <quota wing="3"/>
+      <category faction="hatikvah" tags="[military, fighter]" size="ship_s"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro"/>
+      <environment buildatshipyard="true"/>
+      <modifiers subordinate="true"/>
+      <ship>
+        <select faction="hatikvah" tags="[military, fighter]" size="ship_s"/>
+        <loadout>
+          <level min="0.8" max="1.0"/>
+        </loadout>
+        <owner exact="hatikvah" overridenpc="true"/>
+      </ship>
+    </job>
+  </add>
+  <add sel="/jobs">
+    <job id="alliance_stationtrader_m_DA" name="{20204,801}">
+      <modifiers rebuild="false" commandeerable="false"/>
+      <orders>
+        <order order="TradeRoutine" default="true">
+          <param name="maxbuy" value="5"/>
+        </order>
+      </orders>
+      <basket basket="all_container"/>
+      <category faction="alliance" tags="[stationtrader]" size="ship_m"/>
+      <quota galaxy="0" maxgalaxy="24"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="alliance" relation="ally" comparison="ge" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="alliance" tags="[trader, container]" size="ship_m"/>
+        <loadout>
+          <level min="0.25" max="1.0"/>
+        </loadout>
+        <owner exact="alliance" overridenpc="true"/>
+      </ship>
+    </job>
+  </add>
+  <add sel="/jobs">
+    <job id="alliance_stationtrader_l_DA" name="{20204,701}">
+      <modifiers rebuild="false" commandeerable="false"/>
+      <orders>
+        <order order="TradeRoutine" default="true">
+          <param name="maxbuy" value="5"/>
+        </order>
+      </orders>
+      <basket basket="all_container"/>
+      <category faction="alliance" tags="[stationtrader]" size="ship_l"/>
+      <quota galaxy="0" maxgalaxy="24"/>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="alliance" relation="ally" comparison="ge" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="alliance" tags="[trader, container]" size="ship_l"/>
+        <loadout>
+          <level min="0.5" max="1.0"/>
+        </loadout>
+        <owner exact="alliance" overridenpc="true"/>
+      </ship>
+    </job>
+  </add>
+  <add sel="/jobs">
+    <job id="alliance_free_tug_m_03_DA" name="{20204,5401}">
+      <modifiers commandeerable="true" rebuild="true"/>
+      <orders>
+        <order order="SalvageRoutine" default="true">
+          <param name="range" value="5"/>
+        </order>
+      </orders>
+      <basket basket="rawscrap"/>
+      <category faction="alliance" tags="[factionlogic, tug]" size="ship_m"/>
+      <quota galaxy="4" sector="4"/>
+      <location class="sector" macro="cluster_03_sector001_macro" faction="alliance" relation="neutral" comparison="ge" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="alliance" tags="[tug]" size="ship_m"/>
+        <loadout>
+          <level min="0.3" max="1.0"/>
+        </loadout>
+        <owner exact="alliance" overridenpc="true"/>
+      </ship>
+    </job>
+  </add>
+  <add sel="/jobs">
+    <job id="alliance_free_compactor_l_03_DA" name="{20204,10023}">
+      <modifiers commandeerable="true" rebuild="true"/>
+      <orders>
+        <order order="SalvageRoutine" default="true">
+          <param name="range" value="4"/>
+        </order>
+      </orders>
+      <basket basket="rawscrap"/>
+      <category faction="alliance" tags="[factionlogic, compactor]" size="ship_l"/>
+      <quota galaxy="1" sector="1"/>
+      <location class="sector" macro="cluster_03_sector001_macro" faction="alliance" relation="neutral" comparison="ge" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="alliance" tags="[compactor]" size="ship_l"/>
+        <loadout>
+          <level min="0.3" max="1.0"/>
+        </loadout>
+        <owner exact="alliance" overridenpc="true"/>
+      </ship>
+    </job>
+  </add>
+  <add sel="/jobs">
+    <job id="alliance_free_tug_m_29_DA" name="{20204,5401}">
+      <modifiers commandeerable="true" rebuild="true"/>
+      <orders>
+        <order order="SalvageRoutine" default="true">
+          <param name="range" value="5"/>
+        </order>
+      </orders>
+      <basket basket="rawscrap"/>
+      <category faction="alliance" tags="[factionlogic, tug]" size="ship_m"/>
+      <quota galaxy="4" sector="4"/>
+      <location class="sector" macro="cluster_29_sector001_macro" faction="alliance" relation="neutral" comparison="ge" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="alliance" tags="[tug]" size="ship_m"/>
+        <loadout>
+          <level min="0.3" max="1.0"/>
+        </loadout>
+        <owner exact="alliance" overridenpc="true"/>
+      </ship>
+    </job>
+  </add>
+  <add sel="/jobs">
+    <job id="alliance_free_compactor_l_29_DA" name="{20204,10023}">
+      <modifiers commandeerable="true" rebuild="true"/>
+      <orders>
+        <order order="SalvageRoutine" default="true">
+          <param name="range" value="4"/>
+        </order>
+      </orders>
+      <basket basket="rawscrap"/>
+      <category faction="alliance" tags="[factionlogic, compactor]" size="ship_l"/>
+      <quota galaxy="1" sector="1"/>
+      <location class="sector" macro="cluster_29_sector001_macro" faction="alliance" relation="neutral" comparison="ge" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="alliance" tags="[compactor]" size="ship_l"/>
+        <loadout>
+          <level min="0.3" max="1.0"/>
+        </loadout>
+        <owner exact="alliance" overridenpc="true"/>
+      </ship>
+    </job>
+  </add>
+  <add sel="/jobs">
+    <job id="alliance_free_tug_m_47_DA" name="{20204,5401}">
+      <modifiers commandeerable="true" rebuild="true"/>
+      <orders>
+        <order order="SalvageRoutine" default="true">
+          <param name="range" value="5"/>
+        </order>
+      </orders>
+      <basket basket="rawscrap"/>
+      <category faction="alliance" tags="[factionlogic, tug]" size="ship_m"/>
+      <quota galaxy="4" sector="4"/>
+      <location class="sector" macro="cluster_47_sector001_macro" faction="alliance" relation="neutral" comparison="ge" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="alliance" tags="[tug]" size="ship_m"/>
+        <loadout>
+          <level min="0.3" max="1.0"/>
+        </loadout>
+        <owner exact="alliance" overridenpc="true"/>
+      </ship>
+    </job>
+  </add>
+  <add sel="/jobs">
+    <job id="alliance_free_compactor_l_47_DA" name="{20204,10023}">
+      <modifiers commandeerable="true" rebuild="true"/>
+      <orders>
+        <order order="SalvageRoutine" default="true">
+          <param name="range" value="4"/>
+        </order>
+      </orders>
+      <basket basket="rawscrap"/>
+      <category faction="alliance" tags="[factionlogic, compactor]" size="ship_l"/>
+      <quota galaxy="1" sector="1"/>
+      <location class="sector" macro="cluster_47_sector001_macro" faction="alliance" relation="neutral" comparison="ge" matchextension="false"/>
+      <environment buildatshipyard="true"/>
+      <ship>
+        <select faction="alliance" tags="[compactor]" size="ship_l"/>
+        <loadout>
+          <level min="0.3" max="1.0"/>
+        </loadout>
+        <owner exact="alliance" overridenpc="true"/>
+      </ship>
+    </job>
+  </add>
+</diff>

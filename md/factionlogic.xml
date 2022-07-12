@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <replace sel="/mdscript/cues/cue[@name='FactionLogicManagers']/cues/cue[@name='AllianceOfTheWordFactionLogic']/cues/cue/param[@value='macro.cluster_23_macro']/@value">macro.cluster_47_macro</replace>
+</diff>

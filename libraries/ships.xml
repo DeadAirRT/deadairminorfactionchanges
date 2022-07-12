@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <replace sel="/ships/ship[@id='hat_plunderer']/people/@ref">hatikvah_elite_pirate_crew</replace>
+  <replace sel="/ships/ship[@id='hat_scavenger']/people/@ref">hatikvah_veteran_pirate_crew</replace>
+  <replace sel="/ships/ship[@id='hat_gunboat']/people/@ref">hatikvah_veteran_pirate_crew</replace>
+  <replace sel="/ships/ship[@id='hat_miner_solid_l']/people/@ref">hatikvah_veteran_pirate_crew</replace>
+  <replace sel="/ships/ship[@id='hat_miner_liquid_l']/people/@ref">hatikvah_veteran_pirate_crew</replace>
+  <replace sel="/ships/ship[@id='sca_plunderer']/people/@ref">scaleplate_elite_pirate_crew</replace>
+  <replace sel="/ships/ship[@id='sca_scavenger']/people/@ref">scaleplate_veteran_pirate_crew</replace>
+  <add sel="/ships">
+    <ship id="alliance_tug_m" group="common_tug_m">
+      <category tags="[tug, mission]" faction="[alliance]" size="ship_m"/>
+      <pilot>
+        <select faction="alliance" tags="traderpilot"/>
+      </pilot>
+      <basket basket="all_container"/>
+      <drop ref="ship_medium_civilian"/>
+      <people ref="paranid_freighter_crew"/>
+    </ship>
+  </add>
+  <add sel="/ships">
+    <ship id="alliance_compactor_l" group="scavenger_compactor_l">
+      <category tags="[compactor, mission]" faction="[alliance]" size="ship_l"/>
+      <pilot>
+        <select faction="alliance" tags="traderpilot"/>
+      </pilot>
+      <basket basket="all_container"/>
+      <drop ref="ship_large_civilian"/>
+      <people ref="paranid_freighter_crew"/>
+    </ship>
+  </add>
+</diff>

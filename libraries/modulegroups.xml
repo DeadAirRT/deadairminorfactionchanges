@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/groups">
+    <group name="recycling_ali">
+      <select macro="prod_gen_scrap_recycler_mk2_macro"/>
+    </group>
+  </add>
+</diff>

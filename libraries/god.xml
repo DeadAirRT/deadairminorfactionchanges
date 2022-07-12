@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <remove sel="/god/stations/station[@id='shipyard_alliance'][@type='factory']/quotas/quota/@zone"/>
+  <add sel="/god/stations/station[@id='shipyard_alliance'][@type='factory']/quotas/quota" type="@sector">1</add>
+  <replace sel="/god/stations/station[@id='shipyard_alliance'][@type='factory']/location[@macro='zone001_cluster_23_sector001_macro']">
+    <location class="sector" macro="cluster_47_sector001_macro" matchextension="false">
+      <corerange min="1" max="1.5"/>
+    </location>
+  </replace>
+  <remove sel="/god/stations/station[@id='shipyard_alliance'][@type='factory']/position"/>
+  <remove sel="/god/stations/station[@id='wharf_alliance'][@type='factory']/quotas/quota/@zone"/>
+  <add sel="/god/stations/station[@id='wharf_alliance'][@type='factory']/quotas/quota" type="@sector">1</add>
+  <replace sel="/god/stations/station[@id='wharf_alliance'][@type='factory']/location[@macro='zone001_cluster_47_sector001_macro']/@class">sector</replace>
+  <replace sel="/god/stations/station[@id='wharf_alliance'][@type='factory']/location[@macro='zone001_cluster_47_sector001_macro']/@macro">cluster_47_sector001_macro</replace>
+  <add sel="/god/stations/station[@id='wharf_alliance'][@type='factory']/location[@macro='cluster_47_sector001_macro']" type="@matchextension">false</add>
+  <add sel="/god/stations/station[@id='wharf_alliance'][@type='factory']/location[@macro='cluster_47_sector001_macro']">
+    <corerange min="1" max="1.5"/>
+  </add>
+  <add sel="/god/stations">
+    <station id="ali_shipyard_da_03" race="paranid" owner="alliance" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1"/>
+      </quotas>
+      <location class="sector" macro="cluster_03_sector001_macro" matchextension="false">
+        <corerange min="1" max="1.5"/>
+      </location>
+      <position x="0" y="0" z="0" pitch="0" roll="0"/>
+      <station>
+        <select faction="alliance" tags="[shipyard]"/>
+        <loadout>
+          <level exact="1.0"/>
+        </loadout>
+      </station>
+    </station>
+  </add>
+  <add sel="/god/stations">
+    <station id="ali_wharf_da_03" race="paranid" owner="alliance" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1"/>
+      </quotas>
+      <location class="sector" macro="cluster_03_sector001_macro" matchextension="false">
+        <corerange min="1" max="1.5"/>
+      </location>
+      <station>
+        <select faction="alliance" tags="[wharf]"/>
+        <loadout>
+          <level exact="1.0"/>
+        </loadout>
+      </station>
+    </station>
+  </add>
+  <add sel="/god/stations">
+    <station id="ali_processing_da_03" race="paranid" owner="alliance" type="factory">
+      <quotas>
+        <quota galaxy="2" sector="2"/>
+      </quotas>
+      <location class="sector" macro="cluster_03_sector001_macro" matchextension="false">
+        <corerange min="1" max="1.5"/>
+      </location>
+      <station constructionplan="ali_recycling">
+        <loadout>
+          <level exact="1.0"/>
+        </loadout>
+      </station>
+    </station>
+  </add>
+  <add sel="/god/stations">
+    <station id="ali_shipyard_da_29" race="paranid" owner="alliance" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1"/>
+      </quotas>
+      <location class="sector" macro="cluster_29_sector001_macro" matchextension="false">
+        <corerange min="1" max="1.5"/>
+      </location>
+      <position x="0" y="0" z="0" pitch="0" roll="0"/>
+      <station>
+        <select faction="alliance" tags="[shipyard]"/>
+        <loadout>
+          <level exact="1.0"/>
+        </loadout>
+      </station>
+    </station>
+  </add>
+  <add sel="/god/stations">
+    <station id="ali_wharf_da_29" race="paranid" owner="alliance" type="factory">
+      <quotas>
+        <quota galaxy="1" sector="1"/>
+      </quotas>
+      <location class="sector" macro="cluster_29_sector001_macro" matchextension="false">
+        <corerange min="1" max="1.5"/>
+      </location>
+      <station>
+        <select faction="alliance" tags="[wharf]"/>
+        <loadout>
+          <level exact="1.0"/>
+        </loadout>
+      </station>
+    </station>
+  </add>
+  <add sel="/god/stations">
+    <station id="ali_processing_da_29" race="paranid" owner="alliance" type="factory">
+      <quotas>
+        <quota galaxy="2" sector="2"/>
+      </quotas>
+      <location class="sector" macro="cluster_29_sector001_macro" matchextension="false">
+        <corerange min="1" max="1.5"/>
+      </location>
+      <station constructionplan="ali_recycling">
+        <loadout>
+          <level exact="1.0"/>
+        </loadout>
+      </station>
+    </station>
+  </add>
+  <add sel="/god/stations">
+    <station id="ali_processing_da_47" race="paranid" owner="alliance" type="factory">
+      <quotas>
+        <quota galaxy="2" sector="2"/>
+      </quotas>
+      <location class="sector" macro="cluster_47_sector001_macro" matchextension="false">
+        <corerange min="1" max="1.5"/>
+      </location>
+      <station constructionplan="ali_recycling">
+        <loadout>
+          <level exact="1.0"/>
+        </loadout>
+      </station>
+    </station>
+  </add>
+</diff>
